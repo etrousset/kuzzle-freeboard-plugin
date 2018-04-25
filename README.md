@@ -64,7 +64,7 @@ Settings:
 | Kuzzle port | The port through which Kuzzle Server is accessible, default is `7512` |
 | Token | You can provide a token to be used if anonymous access has been removed. See [Kuzzle login API](https://docs.kuzzle.io/api-documentation/controller-auth/login/) to learn how to generate a JWT encrypted token |
 | Index | The Kuzzle *index* that holds the documents your are interested in. |
-| Collection | The Kuzzle *collectino* that holds the documents your are interested in. |
+| Collection | The Kuzzle *collection* that holds the documents your are interested in. |
 | Filter | The filter the document you are interested in must match. Refer to [Koncord documentation](https://docs.kuzzle.io/kuzzle-dsl/essential/koncorde/) for further information about Kuzzle realtime filters. using `{}` as filter, will match any **created** document.|
 
 The Kuzzle Datasource plugin will receive a notification for each **created** document in the specified `index/collection` that matches the `filter`.
