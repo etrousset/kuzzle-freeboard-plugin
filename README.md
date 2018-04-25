@@ -1,6 +1,6 @@
 # Kuzzle freeboard plugin
 
-Freeboard plugin to help integrating data from a Kuzzle Server in your Freeboard IoT Dashboard
+Freeboard plugin to help integrate data from a Kuzzle Server to your Freeboard IoT Dashboard
 
 ## Kuzzle Datasource
 
